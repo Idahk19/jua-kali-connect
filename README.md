@@ -101,7 +101,7 @@ Backend Setup (Django)
 **Bash**
 
 # Clone repository
-git clone [https://github.com/Kwanusu/jua-kali-connect.git](https://github.com/Kwanusu/jua-kali-connect.git)
+git clone [hhttps://github.com/Idahk19/jua-kali-connect](https://github.com/Idahk19/jua-kali-connect)
 
 cd jua-kali-connect/backend
 
@@ -205,10 +205,10 @@ This project is licensed under the MIT License.
 
 Author
 
-**Your Name**
+**Idah Karwitha**
 
-* GitHub: https://github.com/your-username
-* Email: your-email@example.com
+* GitHub: [https://github.com/Idahk19]()
+* Email: idahkarwitha9@gmail.com
 
 Vision
 
