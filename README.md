@@ -83,7 +83,7 @@ jua-kali-connect/
 ### Prerequisites
 
 bash
-git clone https://github.com/Kwanusu/jua-kali-connect.git
+git clone https://github.com/Idahk19/jua-kali-connect.git
 
 cd jua-kali-connect
 
