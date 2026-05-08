@@ -3,13 +3,87 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-         <title>My first webpage</title>
+         <title>Mastering HTML: A complete Student Guide</title>
     </head>
     <body>
-        <h1>Hello World!</h1>
-    <p>About Us
+        <!--header section navigation-->
+        <header>
+           <h1>Web development Masterclass</h1>
+             <nav aria-label="Main navigation">
+                <ul class="nav-list">
+                <li><a href="#links">Links</a></li>
+                <li><a href="#media">Media</a></li>
+                <li><a href="#table">Tables</a></li>
+                <li><a href="#forms">Forms</a></li>
+                <li><a href="mailto:idahkarwitha9@gmail.com">Email me</a></li>
+        </ul>
+        
+        </nav>
+        </header>
+        <main>
+            <section id="Links">
+                <h2>1. Navigation & Pathing</h2>
+                <p>
+                    <strong>Absolute link</strong> Points to an External reseources 
+                    <a href="https://zinduaschool.com" target="_blank">Learn more</a>
+                </p>
+
+                <p>
+                    <strong>Relative Link</strong> Points to an reseources or page within the same website 
+                    <a href="contact.html" target="_blank">Contact us</a>
+                    <a href="index.html" target="_blank">Home Page</a>
+            
+                </p>
+                <p>
+                    <strong>Internal Link</strong> Points to a internal resource/page 
+                    <a href="#specialized">Jump to the date $ color</a>
+                </p>
+          </section>
+          <!--Multimedia-->
+          <section id="media">
+            <h2>Multimedia $ responsive graphics</h2>
+            <h3>Responsive images</h3>
+            <p>The browser chooses the best image based on the width</p>
+            <img src="assets/images/we-care-wild-JcBylpi9COA-unsplash.jpg" 
+                srcset="assets\images\microsoft-copilot-pEVjp7yIc2A-unsplash.jpg 800w" 
+                sizes="(max-width: 600px) 100vw, 50vw"  
+                alt="not found" width="300px" height="300px">
+            <h3>Image maps</h3>
+            <img src="assets/images/desk.avif" 
+                 usemap="#deskmap"
+                 alt="desk" 
+                 width="800px" 
+                 height="500px">
+                 <map name="deskmap">
+                    <!--rectangle area(x1,y1,x2,y2)-->
+                    <area shape="rect" 
+                          coords="34,44,270,350" 
+                          href="https://zinduaschool.com" 
+                          target="_blank"
+                          alt="coding school">
+                    <!--circle (x,y, radius)-->
+                    <area shape="circle" coords="337, 300, 44" 
+                    href="https://google.com" 
+                    target="_self" 
+                    alt="Search">
+                 </map>
+                 <!--Video and audio-->
+                 <h3>Audio & Video Players</h3>
+            <audio controls style="width: 100%; margin-bottom: 10px;">
+                <source src="lecture-audio.mp3" type="audio/mpeg">
+                Your browser does not support the audio tag.
+            </audio>
+
+            <!-- The 'poster' attribute below adds the thumbnail image -->
+            <video width="100%" controls poster="assets/images/we-care-wild-JcBylpi9COA-unsplash.jpg">
+                <source src="assets/Videos/promo5.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+    
+        </section>
+        </main>
         
     </p>
-    <img src="assets/images/microsoft-copilot-pEVjp7yIc2A-unsplash.jpg" alt="Awesome stuff" width="200px" height="300px">
+    
     </body>
 </html>
